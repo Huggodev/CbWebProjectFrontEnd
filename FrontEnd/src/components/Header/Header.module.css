@@ -1,0 +1,23 @@
+.headerContainer {
+
+    background-color: #D2bbd8;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+
+.headerContainer  img {
+
+    height: 100px;
+}
+
+.headerTitle {
+    
+    color: #786e93;
+    margin-top: 15px;
+    font-size: 55px;
+    font-family: 'Great Vibes', cursive;;
+}

@@ -1,0 +1,21 @@
+.containerLoginForm {
+    background-color: #ffffff;
+    height: 600px;
+    
+    text-align: center;
+}
+
+
+.textLoginH1{
+    
+    text-align: center;
+
+}
+
+.formLogin {
+
+    margin: auto;
+    background-color: #D2bbd8;
+    width: 90%;
+    height: 25%;
+}

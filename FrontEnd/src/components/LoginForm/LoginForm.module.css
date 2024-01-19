@@ -1,0 +1,29 @@
+.formTwoImputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerNameInput {
+    margin-top:  10px;
+}
+
+.containerPasswordInput{
+    margin-top:  10px;
+    margin-bottom: 10px;
+}
+
+input {
+    border: none;
+    border-radius: 3px;
+    width: 50%;
+    height: 20px;
+    padding: 5px;
+}
+
+.buttonSingIn {
+    border: none;
+    width: 50%;
+    height: 20px;
+   margin: auto;
+   border-radius: 3px;
+}

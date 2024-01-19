@@ -1,0 +1,56 @@
+.mainContainer {
+    width: 420px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+
+.sliderContainer {
+    margin-top: 5px;
+    position: relative;
+    height: 100%;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.imageContainer ul {
+    display: flex; /* Cambia el contenedor a flexbox */
+    flex-direction: row; /* Cambia la dirección de flexión a horizontal */
+    list-style: none;
+}
+
+.imageContainer img {
+
+    width: 420px;
+    height: 280px;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #786e93a1;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.rigthtArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #786e93a1;
+    z-index: 1;
+    cursor: pointer;
+}
