@@ -1,6 +1,6 @@
 .titulo {
     text-align: center;
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .boton {
@@ -8,27 +8,32 @@
     width: 200px;
     height: 50px;
     margin: 20px auto;
-    background-color: #D2bbd8;
+    background-color: #468189;
     color: black;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-color: #D2bbd8;
+    border-color:  #468189;
+    ;
     border-radius: 10px;
  }
  
  .boton:hover { 
-    background-color: #5e2b96;
+    background-color: #031926;
     color: white;
 }
 
 .acciones {
 display: flex;
 justify-content: center;
+background-color: #DCDCDC;
+
+
 }
 
 .columna {
     margin: 20px;
 }
+

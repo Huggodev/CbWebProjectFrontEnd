@@ -1,4 +1,4 @@
-import './App.css'
+import './styless/App.css'
 import NavBar from './components/NavBar/NavBar'
 import SimpleRoutes from './routes/SimpleRoutes'
 import { Route, Routes } from 'react-router-dom'
