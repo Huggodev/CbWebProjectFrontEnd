@@ -74,6 +74,7 @@ const LoginForm = () => {
         <button type="submit" className={LoginFormStyles.buttonSingIn}>Iniciar sesión</button>
       </Form>
     </Formik>
+   
   );
 };
 

@@ -6,7 +6,7 @@ const Admin = () => {
     return (
         <>
             <div className='panelAdministracion'>
-                <h2 className='titulo'>Panel de administración</h2>
+                <h1 className='titulo'>Panel de administración</h1>
                 <div className='acciones'>
                     <div className='columna'>
                         <Link to={'/admin/agregarImagen'}>
