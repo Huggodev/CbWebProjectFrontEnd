@@ -3,7 +3,6 @@ import NavBar from './components/NavBar/NavBar'
 import SimpleRoutes from './routes/SimpleRoutes'
 import { Route, Routes } from 'react-router-dom'
 import Admin from "./routes/Admin"
-import Header from './components/Header/Header'
 import AgregarArticulo from './routes/AgregarArticulo'
 import AgregarImagen from './routes/AgregarImagen'
 import AgregarTurno from './routes/AgregarTurno'
