@@ -1,6 +1,7 @@
 import './styless/App.css'
 import NavBar from './components/NavBar/NavBar'
 import SimpleRoutes from './routes/SimpleRoutes'
+import Home from './pages/Home/Home'
 import { Route, Routes } from 'react-router-dom'
 import Admin from "./routes/Admin"
 import AgregarArticulo from './routes/AgregarArticulo'
@@ -13,14 +14,17 @@ import EditarArticulo from './routes/EditarArticulo'
 import EditarTurno from './routes/EditarTurno'
 
 
+
 function App() {
 
 
   return (
     <>
       <NavBar />
-      <SimpleRoutes />
+      {/* <SimpleRoutes /> */}
+   
       <Routes>
+        <Route path='/' element={<Home/>}/>
         <Route path="/admin" element={<Admin />} />
         <Route path='/admin/agregarImagen' element={<AgregarImagen />} />
         <Route path='/admin/eliminarImagen' element={<EliminarImagen />} />
